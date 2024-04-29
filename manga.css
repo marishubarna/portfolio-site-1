@@ -1,0 +1,258 @@
+.imag1{
+  float: left;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+body{
+background-image: url(images/hh.gif);
+background-color: #000000;
+background-repeat: no-repeat;
+}
+
+.body2{
+  background-color:#121B15;
+  border: 0;
+  margin: 0;
+}
+
+.rrrw{
+  text-align: right;
+  padding-right: 10px;
+}
+
+.columm{
+  column-count: 3;
+  text-align: center;
+}
+
+.date0{
+  float:  left;
+}
+
+.fiimag{
+  text-align: center;
+}
+.footer{
+  background-color: #67706F ;
+  height: 180px;
+}
+.page{
+  background:#ffffff;
+  font-weight: bold;
+  text-align: center;
+  border: 5px solid #000000;
+  border-radius: 10px;
+margin-left: 220px;
+margin-right: 220px;
+margin-top: 50px;
+}
+.imag1{
+  float: left;
+}
+.imag2{
+  float: left;
+  padding-left: 10px;
+}
+
+.erre{
+ padding: 10px;
+}
+
+h1{
+  color: #ffffff;
+
+}
+
+h2{
+  font-size: 30px;
+}
+
+.ddd{
+ font-size: 27px;
+}
+
+.head1{
+  background: linear-gradient(0deg, rgba(0,255,247,1) 0%, rgba(0,61,255,1) 100%);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  text-align: center;
+  margin-left:130px;
+  margin-right: 130px;
+}
+.list1{
+  list-style-type: decimal;
+  font-size: 33px;
+text-align: left;
+margin-left: 170px;
+margin-right: 100px;
+}
+
+.logos{
+  column-count: 6;
+  display: flex;
+  justify-content:  space-around;
+  padding-bottom: 20px;
+}
+
+.ttex1{
+font-style: italic;
+  text-align: center;
+  border-bottom: 2px solid #18C7CD;
+  columns: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.ttex2{
+font-family: sans-serif;
+  text-align: center;
+  padding-left: 180px;
+  padding-right: 180px;
+  font-size: 21px;
+}
+
+.ttex3{
+  font-family: sans-serif;
+    text-align: center;
+    margin-left: 180px;
+  margin-right: 180px;
+    font-size: 21px;
+}
+
+
+@media only screen and (max-width: 414px) {
+.date{
+  text-align:  left;
+  font-size: 12px;
+  float: none;
+  padding-left: 0;
+}
+
+.ddd{
+  padding: 0;
+  margin: 0;
+}
+
+.columm{
+  height: 90px;
+  columns: 3;
+  padding: 0;
+  margin: 0;
+
+}
+
+img{
+  height: 20px;
+  padding: 10px;
+}
+  .imag1{
+    margin: 0;
+    height: 50px;
+  }
+
+  .imag2{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+  }
+
+  .imag3{
+    padding: 0;
+  }
+
+.fiimag{
+  height: 160px;
+  
+}
+
+.rtt{
+  height: 70px;
+}
+
+.rrrw{
+  float: left;
+}
+
+.date0{
+  font-size: 1px;
+}
+
+  h1{
+    font-size: 20px;
+  }
+  a{
+
+   font-size: 12px;
+  text-align: center;
+  color:#000000;
+  text-decoration: none;
+  }
+
+.erre{
+
+}
+
+.head1{
+margin: 0;
+  height: 50px;
+
+}
+
+.logos{
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+  float: left;
+}
+
+.page{
+margin: 0;
+margin: 10px;
+}
+
+.footer{
+  height: 150px;
+}
+
+.text1{
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.ttex1{
+  font-size: 20px;
+}
+
+.ttex2{
+  font-size: 20px;
+  padding: 0;
+  margin: 20px;
+}
+
+.ttex3{
+  margin: 0;
+  padding: 0;
+  margin: 20px;
+}
+
+li,ul{
+padding: 0;
+margin: 0;
+  font-size: 15px;
+}
+
+.list1{
+    font-size:25px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+}
